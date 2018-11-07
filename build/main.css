@@ -6183,11 +6183,11 @@ table {
 }
 
 .bg-my-dark {
-  background-color: #0e5cad;
+  background-color: #2d88aa;
 }
 
 .text-dark {
-  color: #0e5cad;
+  color: #2075ac;
 }
 
 .text-6xl {
@@ -6196,6 +6196,11 @@ table {
 
 .font-abel {
   font-family: 'Abel', sans-serif;
+}
+
+.svg-dark > path {
+  fill: #2d88aa;
+  stroke-width: 1pt;
 }
 
 @media (min-width: 576px) {

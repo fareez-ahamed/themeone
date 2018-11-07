@@ -66,11 +66,11 @@
   }
 
   .bg-my-dark {
-    background-color: #0E5CAD;
+    background-color: #2D88AA;
   }
 
   .text-dark {
-    color: #0E5CAD;
+    color: #2075AC;
   }
 
   .text-6xl {
@@ -79,4 +79,9 @@
   
   .font-abel {
     font-family: 'Abel', sans-serif;
+  }
+
+  .svg-dark > path {
+    fill: #2D88AA;
+    stroke-width: 1pt;
   }
