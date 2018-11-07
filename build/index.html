@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,52 @@
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:300,400,700,800" rel="stylesheet">
 </head>
-<body>
-    <div class="bg-gradient h-screen flex items-center">
-        <div class="container flex flex-col items-start justify-center px-12">
-            <h1 class="text-6xl font-abel font-hairline text-white">Acme Product</h1>
-            <p class="text-4xl text-white font-hairline font-sans mt-4">This is the most amazing product available in this category</p>
-        </div>
-        
-    </div>
-    <div class="h-screen flex">
 
+<body>
+    <!-- First Screen -->
+    <div class="bg-gradient h-screen flex items-start text-white">
+        <div class="container m-auto flex flex-col h-full items-start justify-center">
+            <!-- Navbar -->
+            <div class="flex justify-end w-full mt-8">
+                <ul class="list-reset flex font-sans text-xl">
+                    <li class="ml-8"><a class="no-underline text-white" href="#">Blog</a></li>
+                    <li class="ml-8"><a class="no-underline text-white" href="#">About</a></li>
+                </ul>
+            </div>
+            <!-- Jumbo -->
+            <div class="flex flex-col items-start justify-center flex-grow">
+                <h1 class="text-6xl font-abel font-hairline text-white">Acme Product</h1>
+                <p class="text-4xl text-white font-hairline font-sans mt-4">This is the most amazing product available
+                    in this category</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Features -->
+    <div class="flex py-16">
+        <h1 class="font-hairline font-sans text-center text-blue w-full">Features</h1>
+    </div>
+    <!-- Plans -->
+    <div class="flex py-16 items-center justify-center">
+        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+            <div class="h-2 bg-my-dark rounded-t mb-4"></div>
+            <p class="text-center text-2xl font-thin text-dark font-sans">Free</p>
+        </div>
+        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+            <div class="h-2 bg-my-dark rounded-t mb-4"></div>
+            <p class="text-center text-2xl font-thin text-dark font-sans">Basic</p>
+        </div>
+        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+            <div class="h-2 bg-my-dark rounded-t mb-4"></div>
+            <p class="text-center text-2xl font-thin text-dark font-sans">Premium</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="bg-grey-lighter pb-12 pt-16">
+        <div class="container m-auto">
+            copyright footer
+        </div>
     </div>
 </body>
+
 </html>

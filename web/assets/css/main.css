@@ -65,8 +65,16 @@
     background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
   }
 
+  .bg-my-dark {
+    background-color: #0E5CAD;
+  }
+
+  .text-dark {
+    color: #0E5CAD;
+  }
+
   .text-6xl {
-      font-size: 4.5rem;
+    font-size: 4.5rem;
   }
   
   .font-abel {

@@ -6182,6 +6182,14 @@ table {
   background-image: linear-gradient(135deg, #79f1a4 10%, #0e5cad 100%);
 }
 
+.bg-my-dark {
+  background-color: #0e5cad;
+}
+
+.text-dark {
+  color: #0e5cad;
+}
+
 .text-6xl {
   font-size: 4.5rem;
 }
