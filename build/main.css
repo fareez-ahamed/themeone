@@ -6186,6 +6186,10 @@ table {
   background-color: #2d88aa;
 }
 
+.hover:bg-my-darker:hover {
+  background-color: #0e5cad;
+}
+
 .text-dark {
   color: #2075ac;
 }

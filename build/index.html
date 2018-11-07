@@ -15,8 +15,9 @@
     <div class="bg-gradient h-screen flex items-start text-white">
         <div class="container m-auto flex flex-col h-full items-start justify-center">
             <!-- Navbar -->
-            <div class="flex justify-end w-full mt-8">
-                <ul class="list-reset flex font-sans text-xl">
+            <div class="flex w-full mt-8">
+                <img src="one.png"/>
+                <ul class="list-reset flex-grow flex justify-end font-sans text-xl">
                     <li class="ml-8"><a class="no-underline text-white" href="#">Blog</a></li>
                     <li class="ml-8"><a class="no-underline text-white" href="#">About</a></li>
                 </ul>
@@ -44,7 +45,6 @@
                     <path d="m371.113281 55.597656 4.394531-4.394531v53.789063c0 8.285156 6.714844 15 15 15 8.285157 0 15-6.714844 15-15v-53.789063l4.394532 4.394531c5.855468 5.859375 15.355468 5.859375 21.214844 0 5.855468-5.855468 5.855468-15.355468 0-21.210937l-30-30c-5.914063-5.910157-15.429688-5.785157-21.21875 0l-29.996094 30c-5.859375 5.855469-5.859375 15.355469 0 21.210937 5.855468 5.859375 15.355468 5.859375 21.210937 0zm0 0" />
                     <path d="m71.109375 55.597656 4.394531-4.394531v53.789063c0 8.285156 6.714844 15 15 15 8.28125 0 15-6.714844 15-15v-53.789063l4.394532 4.394531c5.855468 5.859375 15.355468 5.859375 21.210937 0 5.859375-5.855468 5.859375-15.355468 0-21.210937l-29.996094-30c-5.835937-5.832031-15.363281-5.851563-21.21875 0l-30 30c-5.859375 5.855469-5.859375 15.355469 0 21.210937 5.855469 5.859375 15.355469 5.859375 21.214844 0zm0 0" /></svg>
                 <h2 class="font-hairline my-4 mx-2 font-sans">Multiuser</h2>
-                <button class="bg-my-dark rounded py-2 px-4 text-white font-sans">Learn more</button>
             </div>
             <div class="flex-1 flex flex-col items-center text-dark">
                 <svg class="svg-dark mt-8 mb-2" height="72pt" viewBox="-31 0 512 512" width="72pt" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,6 @@
                 <h2 class="font-hairline my-4 mx-2 font-sans">Cloud-First</h2>
             </div>
             <div class="flex-1 flex flex-col items-center text-dark">
-
                 <svg class="svg-dark mt-8 mb-2" height="72pt" viewBox="0 0 512 512" width="72pt" xmlns="http://www.w3.org/2000/svg">
                     <path d="m135 362h-120c-8.285156 0-15 6.714844-15 15v120c0 8.285156 6.714844 15 15 15h120c8.285156 0 15-6.714844 15-15 0-5.273438 0-114.738281 0-120 0-8.285156-6.714844-15-15-15zm-15 30v30h-90v-30zm0 90h-90v-30h90zm0 0" />
                     <path d="m316 302h-120c-8.285156 0-15 6.714844-15 15v180c0 8.285156 6.714844 15 15 15h120c8.285156 0 15-6.714844 15-15 0-5.949219 0-170.722656 0-180 0-8.285156-6.714844-15-15-15zm-105 90h90v30h-90zm90-60v30h-90v-30zm0 150h-90v-30h90zm0 0" />
@@ -61,20 +60,41 @@
                 <h2 class="font-hairline my-4 mx-2 font-sans">High Performance</h2>
             </div>
         </div>
+        <div class="mt-16 flex justify-center">
+        <button class="bg-my-dark hover:my-bg-darker rounded py-4 px-8 text-white text-xl font-sans">Learn more</button>
+    </div>
     </div>
     <!-- Plans -->
-    <div class="flex py-16 items-center justify-center">
-        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+    <div class="flex container m-auto py-16 items-center justify-center">
+        <div class="flex-1 mx-4 shadow rounded hover:shadow-lg">
             <div class="h-2 bg-my-dark rounded-t mb-4"></div>
             <p class="text-center text-2xl font-thin text-dark font-sans">Free</p>
+            <ul class="list-reset flex flex-col items-stretch just my-2 font-sans">
+                <li class="text-center py-4 border-b border-t">1 User</li>
+                <li class="text-center py-4 border-b">2 GB Storage</li>
+                <li class="text-center py-4">Upto 5 Projects</li>
+            </ul>
+            <button class="text-center w-full bg-my-dark rounded-b text-white py-4 font-sans">Buy Now!</button>
         </div>
-        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+        <div class="flex-1 mx-4 shadow rounded hover:shadow-lg">
             <div class="h-2 bg-my-dark rounded-t mb-4"></div>
             <p class="text-center text-2xl font-thin text-dark font-sans">Basic</p>
+            <ul class="list-reset flex flex-col items-stretch just my-2 font-sans">
+                    <li class="text-center py-4 border-b border-t">25 Users</li>
+                    <li class="text-center py-4 border-b">100 GB Storage</li>
+                    <li class="text-center py-4">Upto 25 Projects</li>
+                </ul>
+                <button class="text-center w-full bg-my-dark rounded-b text-white py-4 font-sans">Buy Now!</button>
         </div>
-        <div class="flex-1 mx-4 pb-4 shadow rounded hover:shadow-lg">
+        <div class="flex-1 mx-4 shadow rounded hover:shadow-lg">
             <div class="h-2 bg-my-dark rounded-t mb-4"></div>
             <p class="text-center text-2xl font-thin text-dark font-sans">Premium</p>
+            <ul class="list-reset flex flex-col items-stretch just my-2 font-sans">
+                    <li class="text-center py-4 border-b border-t">Unlimited Users</li>
+                    <li class="text-center py-4 border-b">Unlimited Storage</li>
+                    <li class="text-center py-4">Unlimited Projects</li>
+                </ul>
+                <button class="text-center w-full bg-my-dark rounded-b text-white py-4 font-sans">Buy Now!</button>
         </div>
     </div>
     <!-- Footer -->

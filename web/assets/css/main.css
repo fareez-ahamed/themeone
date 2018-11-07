@@ -69,6 +69,10 @@
     background-color: #2D88AA;
   }
 
+  .hover:bg-my-darker:hover {
+    background-color: #0E5CAD;
+  }
+
   .text-dark {
     color: #2075AC;
   }
